@@ -456,7 +456,7 @@ function () {
 
             return [4
             /*yield*/
-            , fetch("http://localhost:3000/users/".concat(id), {
+            , fetch("http://e217-175-123-111-78.ngrok.io/users/".concat(id), {
               method: 'PATCH',
               headers: {
                 'Content-Type': 'application/json'
@@ -733,7 +733,7 @@ function () {
 
             return [4
             /*yield*/
-            , fetch('http://localhost:3000/login', {
+            , fetch('http://e217-175-123-111-78.ngrok.io/login', {
               method: 'POST',
               headers: {
                 'Content-Type': 'application/json'
@@ -1185,7 +1185,7 @@ function () {
 
             return [4
             /*yield*/
-            , fetch('http://localhost:3000/register', {
+            , fetch('http://e217-175-123-111-78.ngrok.io/register', {
               method: 'POST',
               headers: {
                 'Content-Type': 'application/json'
